@@ -3,9 +3,33 @@ layout: default
 ---
 
 
-<h1>Kalden portfolio</h1>
-<p>dude hello </p>
+<h1>Kalden portfolio (index.html)</h1>
+<p>dude hello (index.html)</p>
 
 
+<h2>order using _data</h2>
+<ol>
+    {% for order in site.data.data-order %}
+        <li>
+            <a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{order.title}}</a>
+            {{order.content | markdownify}}
+        </li>
+    {% endfor %}
+
+</ol>
+
+
+
+
+<h2>order test Hack</h2>
+<ol>
+    {% for order in site.categories.planet-type %}
+        <li>
+            <a href="#">{{order.title}}</a>
+            {{order.content}}
+        </li>
+    {% endfor %}
+
+</ol>
 
 

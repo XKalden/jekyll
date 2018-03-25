@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+
+
+.red{
+    color: red;
+    background-color: pink;
+}
+
+
+
+nav-botton{
+    color:gold;
+}
+
+.black{
+    background-color:green;
+
+}
+
+.nav > li{
+    display: inline-block;
+}
+
+
+.nav-top{
+    background-color: aqua;
+    font-size: 26px;
+}

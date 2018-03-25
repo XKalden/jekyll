@@ -1,0 +1,11 @@
+
+
+
+<nav>
+    <ul class="nav {{include:navclass}}">
+        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}red{% endif %}">How</a></li>
+        <li><a href="{{site.baseurl}}/planets">planets</a></li>   
+        <li><a href="{{site.baseurl}}/new.html" class="{% if page.url contains 'new' or page.url contains 'cartoon' %}red{% endif %}"> News</a></li>
+    </ul>
+</nav>
+

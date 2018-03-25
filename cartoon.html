@@ -1,0 +1,19 @@
+--- 
+layout: news
+---
+
+<h1>Cartoon News </h1>
+
+<ul>
+    {% for news in site.categories.cartoon limit:2 %}
+        <li>
+            <a href="{{news.title}}">{{news.title}}</a>
+            <p>{{news.meta}}</p>
+        </li>
+
+    {% endfor %}
+
+</ul>
+
+
+
