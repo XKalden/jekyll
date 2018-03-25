@@ -1,0 +1,16 @@
+.masthead{
+    padding: 1em;
+    background: url("../img/sky.jpg") no-repeat center center;
+    background-size: cover;
+
+    color: white;
+
+}
+
+.masthead-planets{
+    padding: 1em;
+    background: url("../img/space.jpeg") no-repeat center center;
+    background-size: cover;
+    color: white;
+
+}

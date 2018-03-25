@@ -1,17 +1,3 @@
-html{
-    margin: 0;
-    padding: 0;
-    font: noraml;
-}
-
-
-
-body{
-    background-color: green;
-}
-
-
-
 
 .red{
     color: red;
@@ -38,4 +24,5 @@ nav-botton{
     background-color: aqua;
     font-size: 26px;
 }
+
 

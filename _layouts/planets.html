@@ -1,0 +1,23 @@
+---
+layout: default
+
+---
+
+
+<nav>
+    <ul>
+        {% for order in site.categories.planet-type %}
+            <li>
+                <a href="{{site.baseurl}}/planetss/{{order.folder}}/"  class="{% if page.url contains order.folder %}red{% endif %}">{{order.title}}</a>
+                <!-- {{order.content}} -->
+                   
+               
+            </li>
+        {% endfor %}
+
+    </ul>
+</nav>  
+
+
+
+{{content}}

@@ -1,5 +1,7 @@
 ---
 layout: default
+titleAfter: Stellar Seo After
+meta: random index page meta
 ---
 
 
@@ -11,7 +13,7 @@ layout: default
 <ol>
     {% for order in site.data.data-order %}
         <li>
-            <a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{order.title}}</a>
+            <a href="{{site.baseurl}}/planetss/{{order.folder}}/">{{order.title}}</a>
             {{order.content | markdownify}}
         </li>
     {% endfor %}
@@ -25,10 +27,11 @@ layout: default
 <ol>
     {% for order in site.categories.planet-type %}
         <li>
-            <a href="#">{{order.title}}</a>
+            <a href="{{site.baseurl}}/planetss/{{order.folder}}/">{{order.title}}</a>
             {{order.content}}
         </li>
     {% endfor %}
+
 
 </ol>
 
